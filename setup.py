@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-__version__ = "0.1"
+__version__ = "0.0.5"
 DESCRIPTION = 'A python library for simulating optics'
 LONG_DESCRIPTION = 'This package allow you to simulate photons behavior and maniplute them with optical elements'
 
